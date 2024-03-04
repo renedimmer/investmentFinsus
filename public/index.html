@@ -1,74 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.svg">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.svg" />
     <title><%= htmlWebpackPlugin.options.title %></title>
 
-
-    <meta name="author" content="Alberto de la Rocha <delarocha.alberto01@gmail.com>">
-    <meta name="github" content="https://github.com/dlrdelarocha">
+    <meta
+      name="author"
+      content="Alberto de la Rocha <delarocha.alberto01@gmail.com>"
+    />
+    <meta name="github" content="https://github.com/dlrdelarocha" />
 
     <!-- HTML Meta Tags -->
     <title>📊 Calculadora de interés compuesto</title>
-    <meta name="description" content="Calcula el interés compuesto para que conozcas cuánto ganarás con tus inversiones de manera fácil y rápida">
+    <meta
+      name="description"
+      content="Calcula el interés compuesto para que conozcas cuánto ganarás con tus inversiones de manera fácil y rápida"
+    />
 
     <!-- Google / Search Engine Tags -->
-    <meta itemprop="name" content="📊 Calculadora de interés compuesto">
-    <meta itemprop="description" content="Calcula el interés compuesto para que conozcas cuánto ganarás con tus inversiones de manera fácil y rápida">
-    <meta itemprop="image" content="http://omareducacionfinanciera.com/wp-content/uploads/2020/05/Logo-No-Slogan.png">
+    <meta itemprop="name" content="📊 Calculadora de interés compuesto" />
+    <meta
+      itemprop="description"
+      content="Calcula el interés compuesto para que conozcas cuánto ganarás con tus inversiones de manera fácil y rápida"
+    />
+    <meta
+      itemprop="image"
+      content="http://omareducacionfinanciera.com/wp-content/uploads/2020/05/Logo-No-Slogan.png"
+    />
 
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://calculadoras.omareducacionfinanciera.com/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="📊 Calculadora de interés compuesto">
-    <meta property="og:description" content="Calcula el interés compuesto para que conozcas cuánto ganarás con tus inversiones de manera fácil y rápida">
-    <meta property="og:image" content="http://omareducacionfinanciera.com/wp-content/uploads/2020/05/Logo-No-Slogan.png">
+    <meta
+      property="og:url"
+      content="https://calculadoras.omareducacionfinanciera.com/"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="📊 Calculadora de interés compuesto" />
+    <meta
+      property="og:description"
+      content="Calcula el interés compuesto para que conozcas cuánto ganarás con tus inversiones de manera fácil y rápida"
+    />
+    <meta
+      property="og:image"
+      content="http://omareducacionfinanciera.com/wp-content/uploads/2020/05/Logo-No-Slogan.png"
+    />
 
     <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://calculadoras.omareducacionfinanciera.com/">
-    <meta name="twitter:title" content="📊 Calculadora de interés compuesto">
-    <meta name="twitter:description" content="Calcula el interés compuesto para que conozcas cuánto ganarás con tus inversiones de manera fácil y rápida">
-    <meta name="twitter:image" content="http://omareducacionfinanciera.com/wp-content/uploads/2020/05/Logo-No-Slogan.png">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://calculadoras.omareducacionfinanciera.com/"
+    />
+    <meta name="twitter:title" content="📊 Calculadora de interés compuesto" />
+    <meta
+      name="twitter:description"
+      content="Calcula el interés compuesto para que conozcas cuánto ganarás con tus inversiones de manera fácil y rápida"
+    />
+    <meta
+      name="twitter:image"
+      content="http://omareducacionfinanciera.com/wp-content/uploads/2020/05/Logo-No-Slogan.png"
+    />
 
     <!-- Facebook Pixel Code -->
     <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-              n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-              'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '2478287035794119');
-      fbq('track', 'PageView');
+      !(function(f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function() {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "2478287035794119");
+      fbq("track", "PageView");
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-                   src="https://www.facebook.com/tr?id=2478287035794119&ev=PageView&noscript=1"
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display:none"
+        src="https://www.facebook.com/tr?id=2478287035794119&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Facebook Pixel Code -->
 
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148881802-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-148881802-1"
+    ></script>
 
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'UA-148881802-1');
+      gtag("config", "UA-148881802-1");
+    </script>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyDcKByDWKn9eDJIQEceRP2T3m9jeyBUQNE",
+        authDomain: "investment-finsus.firebaseapp.com",
+        projectId: "investment-finsus",
+        storageBucket: "investment-finsus.appspot.com",
+        messagingSenderId: "12874019886",
+        appId: "1:12874019886:web:dc8e70014695c013f21bbf",
+        measurementId: "G-X59YRXCJD6",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
     </script>
 
     <!-- End google Pixel Code -->
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->

@@ -173,6 +173,7 @@ export default {
       if (isNaN(Number(compound))) {
         return defaultReturn;
       }
+      console.log('compound', compound)
       return compound;
     },
     calculateFutureValue(time = 0, defaultReturn = 0) {
@@ -181,6 +182,7 @@ export default {
       if (isNaN(Number(future))) {
         return defaultReturn;
       }
+      console.log('future', future)
       return future;
     },
     hasMetricsEmptyData(defaultResponse = false) {
