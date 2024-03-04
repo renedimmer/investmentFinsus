@@ -27,13 +27,13 @@
           <h3>Resultados</h3>
         </div>
         <el-col :span="6" :xs="24" style="text-align: center; margin-bottom: 10px;">
-          <el-result-card class="card-blue-one" title="Depósito inicial" icon-shape="el-icon-wallet" :value="currentStrategy.principal"></el-result-card>
+          <el-result-card class="card-blue-one" title="Inversión inicial" icon-shape="el-icon-wallet" :value="currentStrategy.principal"></el-result-card>
         </el-col>
         <el-col :span="6" :xs="24" style="text-align: center; margin-bottom: 10px;">
-          <el-result-card class="card-blue-two"  title="Depósitos adicionales acumulados" icon-shape="el-icon-coin" :value="currentStrategy.deposits"></el-result-card>
+          <el-result-card class="card-blue-two"  title="Aportaciones" icon-shape="el-icon-coin" :value="currentStrategy.deposits"></el-result-card>
         </el-col>
         <el-col :span="6" :xs="24" style="text-align: center; margin-bottom: 10px;">
-          <el-result-card class="card-green-one" title="Interés acumulado" icon-shape="el-icon-data-line" :value="currentStrategy.interests"></el-result-card>
+          <el-result-card class="card-green-one" title="Rendimiento" icon-shape="el-icon-data-line" :value="currentStrategy.interests"></el-result-card>
         </el-col>
         <el-col :span="6" :xs="24" style="text-align: center; margin-bottom: 10px;">
           <el-result-card class="card-green-two" title="Total" icon-shape="el-icon-money" :value="currentStrategy.total"></el-result-card>

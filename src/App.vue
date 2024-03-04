@@ -32,7 +32,7 @@ export default {
     $route: {
       immediate: true,
       handler(to) {
-        document.title = to.meta.title || 'Omar Educación Financiera!';
+        document.title = to.meta.title || 'Si yo hubiera...!';
       }
     },
   }

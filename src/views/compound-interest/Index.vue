@@ -4,9 +4,9 @@
       <el-col :md="8" :xl="4" style="padding-right: 25px;">
         <el-col class="">
           <div class="sub-title subtitle-style">
-            Depósito inicial
+            Inversión inicial
             <el-tooltip effect="dark" placement="top-start">
-              <div slot="content"> Cantidad con la que vas a comenzar a invertir.</div>
+              <div slot="content"> Cantidad incial que hubieras invertido.</div>
               <span>
                 <i class="el-icon-info"></i>
               </span>
@@ -18,7 +18,7 @@
           <div class="sub-title subtitle-style">
             Tasa de interés anual
             <el-tooltip class="tooltip-format" effect="dark" placement="top-start">
-              <div slot="content">Tasa de rendimiento anual que recibes expresada en porcentaje.</div>
+              <div slot="content">Tasa de rendimiento anualizada.</div>
               <span><i class="el-icon-info"></i></span>
             </el-tooltip>
             <div id="input-interest">
@@ -33,9 +33,9 @@
         </el-col>
         <el-col class="">
           <div class="sub-title subtitle-style">
-            Años a invertir
+            Plazo
             <el-tooltip effect="dark" placement="top-start">
-              <div slot="content">Número de años por los que vas a realizar la inversión.</div>
+              <div slot="content">Número de años de la inversión que hubeiras echo.</div>
               <span><i class="el-icon-info"></i></span>
             </el-tooltip>
           </div>
@@ -46,9 +46,9 @@
         </el-col>
         <el-col>
           <div class="sub-title subtitle-style">
-            Frecuencia anual de interés
+           Aportaciones
             <el-tooltip effect="dark" placement="top-start">
-              <div class="too" slot="content">Número de veces al año <br> que se agrega el interés <br> al capital (interés compuesto).</div>
+              <div class="too" slot="content">Número de veces al año <br>que aportaste. <br> a tu inversón.</div>
               <span><i class="el-icon-info"></i></span>
             </el-tooltip>
           </div>
@@ -69,7 +69,7 @@
         </el-col>
         <el-col>
           <div class="sub-title subtitle-style">
-            Aportaciones adicionales
+            Aportaciones adicionales de:
             <el-tooltip effect="dark" placement="top-start">
               <div slot="content">Depósitos adicionales a lo que invertiste <br>
                 inicialmente, la frecuencia del depósito <br>
@@ -110,11 +110,11 @@ export default {
         pmt: 0, //monthly payment (pmt)
       },
       options: [
-        {value: 1, text: 'Anualmente'},
-        {value: 12, text: 'Mensualmente'},
+        // {value: 1, text: 'Anualmente'},
+        // {value: 12, text: 'Mensualmente'},
         {value: 24, text: 'Quincenalmente'},
-        {value: 52, text: 'Semanalmente'},
-        {value: 365, text: 'Diariamente'}
+        // {value: 52, text: 'Semanalmente'},
+        // {value: 365, text: 'Diariamente'}
       ],
       isInputActive: false
     }

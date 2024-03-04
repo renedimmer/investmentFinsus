@@ -4,14 +4,14 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
-const author = "Omar Educación Financiera"
+const author = "Si yo hubiera..."
 
 const routes = [
   {
     path: '/home',
     name: 'home',
     meta: {title: 'Inicio -' + author},
-    beforeEnter() {location.href = 'https://omareducacionfinanciera.com/blog'}
+    beforeEnter() {location.href = ''}
   },
   {
     path: '/',
