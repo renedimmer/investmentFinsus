@@ -1,6 +1,7 @@
 <template>
-        <el-main>
-            <h3 class="subtitle-style" style="padding-bottom: 15px;">Preguntas frecuentes</h3>
+<span></span>
+        <!-- <el-main> -->
+            <!-- <h3 class="subtitle-style" style="padding-bottom: 15px;">Preguntas frecuentes</h3>
             <el-collapse accordion v-model="activeNames">
                 <el-collapse-item name="1">
                     <template slot="title" >
@@ -84,8 +85,8 @@
                         </el-table>
                     </div>
                 </el-collapse-item>
-            </el-collapse>
-        </el-main>
+            </el-collapse> -->
+        <!-- </el-main> -->
 </template>
 
 <script>

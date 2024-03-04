@@ -1,12 +1,13 @@
 <template>
-  <nav class="nav has-shadow">
-    <div class="container">
-      <div class="nav-left">
-        <router-link class="nav-item is-tab is-hidden-mobile" v-on:click="changeToActive('compound')" v-bind:class="{'is-active' : isActive}" to="/interes-compuesto">Interés compuesto</router-link>
+<p></p>
+  <!-- <nav class="nav has-shadow"> -->
+    <!-- <div class="container"> -->
+      <!-- <div class="nav-left"> -->
+        <!-- <router-link class="nav-item is-tab is-hidden-mobile" v-on:click="changeToActive('compound')" v-bind:class="{'is-active' : isActive}" to="/interes-compuesto">Interés compuesto</router-link> -->
         <!-- <router-link class="nav-item is-tab is-hidden-mobile" v-on:click="changeToActive('credit')" to="/amortizacion-para-credito">Amortización para Crédito</router-link> -->
-      </div>
-    </div>
-  </nav>
+      <!-- </div> -->
+    <!-- </div> -->
+  <!-- </nav> -->
 </template>
 
 <script>
