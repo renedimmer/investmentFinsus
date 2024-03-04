@@ -3,8 +3,10 @@
 ![Compound Interest](https://github.com/dlr-delarocha/compound-interest/blob/master/public/dashboard.png)
 
 ## Project setup
+
+hola
 ```
-npm install
+npm install 
 ```
 
 ### Compiles and hot-reloads for development
